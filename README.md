@@ -11,7 +11,7 @@
 - [Citation](#-citation)
 - [Contributions](#-contributions)
 - [Contact](#-contact)
-- 
+
 ## 🚀 Features
 
 - Synthetic generation of treatment, outcome, and covariate time series.
@@ -31,9 +31,12 @@ Clone this repository and install the required dependencies:
 git clone https://github.com/yourusername/causal-synthetic-data-gen.git
 cd causal-synthetic-data-gen
 pip install -r requirements.txt
+```
 
 ## 📝 Usage Example
-...
+```python
+from causal_synthetic_data_gen import SyntheticCausalGenerator
+```
 
 ## 📂 Output Structure
 The generator produces:
@@ -49,12 +52,19 @@ The generator produces:
 This project is licensed under the MIT License.
 
 ## 📖 Citation
-If you use this tool in your research, please cite:
-Angeruzzi, A. S., & Albertini, M. K. (2025). Longitudinal Synthetic Data Generation from Causal Structures.
 
+If you use this tool in your research, please cite:
+
+> Angeruzzi, A. S., & Albertini, M. K. (2025). Longitudinal Synthetic Data Generation from Causal Structures.
+
+ 
 ## 🤝 Contributions
 Contributions, issues, and feature requests are welcome. Feel free to submit a pull request or open an issue.
 
-- Alessandro S. Angeruzzi - alessandro@angeruzzi.com.br / alessandro.angeruzzi@ufu.br
-- M. K. Albertini - albertini@ufu.br
+
+## 📫 Contact
+
+- **Alessandro S. Angeruzzi** - alessandro@angeruzzi.com.br / alessandro.angeruzzi@ufu.br
+- **M. K. Albertini** - albertini@ufu.br
+
 
