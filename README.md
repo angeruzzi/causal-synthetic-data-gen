@@ -2,6 +2,16 @@
 
 **causal-synthetic-data-gen** is a Python-based tool for generating **synthetic longitudinal causal datasets** with autoregressive temporal dynamics and customizable **causal structures**. It supports **counterfactual scenario generation** for benchmarking causal inference algorithms.
 
+## 📑 Table of Contents
+- [Features](#-features)
+- [Installation](#-installation)
+- [Usage Example](#-usage-example)
+- [Output Structure](#-output-structure)
+- [License](#-license)
+- [Citation](#-citation)
+- [Contributions](#-contributions)
+- [Contact](#-contact)
+- 
 ## 🚀 Features
 
 - Synthetic generation of treatment, outcome, and covariate time series.
@@ -21,3 +31,30 @@ Clone this repository and install the required dependencies:
 git clone https://github.com/yourusername/causal-synthetic-data-gen.git
 cd causal-synthetic-data-gen
 pip install -r requirements.txt
+
+## 📝 Usage Example
+...
+
+## 📂 Output Structure
+The generator produces:
+
+- treatments: factual treatment sequences
+- outcomes: factual outcome sequences
+- covariates: (optional) covariate sequences
+- treatments_cf: counterfactual treatment sequences (if enabled)
+- outcomes_cf: counterfactual outcome sequences (if enabled)
+
+
+## 📜 License
+This project is licensed under the MIT License.
+
+## 📖 Citation
+If you use this tool in your research, please cite:
+Angeruzzi, A. S., & Albertini, M. K. (2025). Longitudinal Synthetic Data Generation from Causal Structures.
+
+## 🤝 Contributions
+Contributions, issues, and feature requests are welcome. Feel free to submit a pull request or open an issue.
+
+- Alessandro S. Angeruzzi - alessandro@angeruzzi.com.br / alessandro.angeruzzi@ufu.br
+- M. K. Albertini - albertini@ufu.br
+
