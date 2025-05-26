@@ -1,0 +1,34 @@
+# Dados principais
+name: "synthetic1"
+seed: 42
+n: 60
+t: 20
+structure_type: "chain"   # opções: "direct", "chain", "confounder"
+nonlinear: true 
+intervention_type: "gradual"   # opções: "pontual", "continua", "gradual"
+normalize: true
+
+# Parâmetros opcionais (se não fornecidos, são gerados aleatoriamente)
+phi_T: 0.8
+phi_Y: 0.9
+t_interv: 11
+delta_T: 0.5
+
+
+# Coeficientes causais (os nomes dependem da estrutura)
+betas:
+  ty: 1.2   # T → Y
+  tx: 0.7   # T → X (usado em "chain")
+  xy: 0.9   # X → Y (usado em "chain" e "confounder")
+  xt: 0.6   # X → T (usado em "confounder")
+
+# Faixas de ruído para cada componente
+noise_T_range: [-0.05, 0.05]
+noise_Y_range: [-0.05, 0.05]
+noise_X_range: [-0.05, 0.05]
+
+# Proporções de divisão dos dados
+split:
+  train: 0.7
+  val: 0.15
+  test: 0.15

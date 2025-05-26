@@ -1,0 +1,16 @@
+experiment_template: &default_experiments
+  - { name: "RnnED", batch_train_size: 250, batch_val_size: 125, epochs: 300,  num_layer: 4, repeat: 5 }
+  - { name: "LstmED", batch_train_size: 250, batch_val_size: 125, epochs: 300,  num_layer: 4, repeat: 5 }
+  - { name: "GruED", batch_train_size: 250, batch_val_size: 125, epochs: 300,  num_layer: 4, repeat: 5 }
+
+experiment_groups:
+  - data_type: "synthetic1_chain_nonlinear"
+    t: 20
+    prev: 10
+    projection_horizon: 10
+    ntrain: 42
+    nval: 9
+    ntest: 9
+    has_covariate: true
+    has_counterfactual: true    
+    experiments: *default_experiments

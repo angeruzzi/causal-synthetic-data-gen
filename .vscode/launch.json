@@ -1,0 +1,46 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Generator",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/runnables/run_generator.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args": [
+        "config/generator.yaml"
+      ],
+      "python": "${workspaceFolder}/venv/Scripts/python.exe",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    },
+    {
+        "name": "Run Statistical Baselines",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}/runnables/run_exp_baseline_st.py",
+        "console": "integratedTerminal",
+        "justMyCode": true,
+        "args": [],
+        "python": "${workspaceFolder}/venv/Scripts/python.exe",        
+        "env": {
+            "PYTHONPATH": "${workspaceFolder}"
+        }            
+    },      
+    {
+        "name": "Run NN Baselines",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}/runnables/run_exp_baseline_nn.py",
+        "console": "integratedTerminal",
+        "justMyCode": true,
+        "args": [],
+        "python": "${workspaceFolder}/venv/Scripts/python.exe",        
+        "env": {
+            "PYTHONPATH": "${workspaceFolder}"
+        }            
+    },  
+  ]
+}

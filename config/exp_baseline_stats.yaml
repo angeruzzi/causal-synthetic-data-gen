@@ -1,0 +1,8 @@
+experiments:
+- data_type: "synthetic1_chain_nonlinear"
+  n: 9
+  t: 20
+  prev: 10
+  horizon: 10
+  models:
+    - name: "LinearRegressionModelDual"

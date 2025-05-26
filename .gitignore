@@ -1,0 +1,25 @@
+# Ambientes virtuais
+venv/
+.env/
+*.env
+
+# Arquivos de configuração locais
+config/local.yaml
+*.log
+*.txt
+
+# Arquivos gerados
+__pycache__/
+*.pyc
+# dataset/
+# *.npz
+
+# VSCode
+# .vscode/
+
+
+# Arquivos temporários
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db

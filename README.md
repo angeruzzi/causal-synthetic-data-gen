@@ -28,7 +28,7 @@
 Clone this repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/causal-synthetic-data-gen.git
+git clone https://github.com/angeruzzi/causal-synthetic-data-gen.git
 cd causal-synthetic-data-gen
 pip install -r requirements.txt
 ```
